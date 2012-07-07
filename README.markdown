@@ -37,6 +37,8 @@ I also know for anything *more than* a chat app I would have dealt with needing 
 
 With Meteor... well, I have 50 lines of Coffeescript logic and 50 lines of view code. Time to go from 0 Meteor knowledge (PLUS very rusty Coffeescript) to a complete chat-chat implementation took me about 3 hours.
 
+Oh yeah, and some of the magic reminds me of Cocoa Bindings / Key Value Observing. (Thanks, desktop Cocoa programming experience!)
+
 Yes, it's not big, and maybe could be structured better
 ==============================
 
