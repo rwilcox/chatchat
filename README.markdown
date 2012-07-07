@@ -49,3 +49,17 @@ Yes, it's not big, and maybe could be structured better
 
 In a bigger app I would have split things up better.
 
+chow-chow!??!
+=============================
+
+It's a Pennsylvania thing, usually Amish but not necessarily.
+
+It comes in jars:
+
+<img src="http://s1.hubimg.com/u/1258300_f520.jpg" />
+
+It looks like:
+
+<img src="http://img.foodnetwork.com/FOOD/2010/06/08/FNM_070110-Tyler-4th-Of-July-002_s4x3_lg.jpg" />
+
+
