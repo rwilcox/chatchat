@@ -1,0 +1,62 @@
+<head>
+  <title>chatchat</title>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span-2">
+				{{> users}}
+			</div>
+			<div class="span-10">
+				<div class="hero-unit">
+					{{> hello}}
+				</div>
+				<div class="well">
+					{{> messages}}
+				</div>
+			</div>
+	</div>
+</body>
+
+<template name="hello">
+  <h1>Hello World!</h1>
+  <p>{{greeting}}</p>
+  <input id="username" type="text" value="{{username}}"/>
+  <input id="clickme" type="button" value="Click" />
+</template>
+
+<template name="users">
+<h1>Those who have chatted</h1>
+<ul>
+  {{#each chatting_users}}
+    <li>{{name}}</li>
+    {{/each}}
+</ul>
+
+</template>
+
+<template name="messages">
+<h1>The Chatroom</h1>
+<input id="message" type="text" value="My Message" />
+<input id="message_send" type="button" value="Send" />
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Username</th>
+			<th>Date Sent</th>
+			<th>Message</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each messages}}
+		<tr>
+			<td>{{name}}</td>
+			<td>{{time}}</td>
+			<td>{{message}}</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
+</template>
+
