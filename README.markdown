@@ -27,6 +27,11 @@ I'm using a Procfile and [Foreman](http://ddollar.github.com/foreman/) to start 
 
 I've used Foreman in pretty much every Rails project I've been on for the last 18 months (or so) and I can't imagine starting up a web stack without it. Because someone always forgets to start the Z server, and wonders about some obscure error.
 
+Running on my machine is BORING! CAN I HAS DEMO?
+==================================
+
+It's deployed! [chatchat.meteor.com](http://chatchat.meteor.com)
+
 So, what do you think about Meteor?
 ==================================
 
